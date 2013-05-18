@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+/* --------------------------------------------------------------------- */
+/* table
+/* --------------------------------------------------------------------- */
+.dataGrid {}
+.dataGrid table {
+	border-collapse: collapse;
+	width: 100%;
+	vertical-align: middle;
+	text-align: left;
+}
+
+.dataGrid tr:nth-of-type(odd) {
+	background: #edf1e7;
+}
+
+.dataGrid tr:nth-of-type(even) {
+	background: #f5f7f2;
+}
+
+.dataGrid th {
+	background:#328aa4;
+	color: white;
+}
+
+.dataGrid td, th {
+	text-transform : uppercase;
+}
+
+.dataGrid td {
+	border-bottom: 1px dotted #ccc;
+}
+
+.dataGrid tr:hover {
+   background : #333366;
+   cursor : pointer;
+   color: #fff;
+}
+
+.dataGrid ul.paging {
+	list-style: none;
+	margin-left:0px;
+	display: inline;
+}
+
+.dataGrid ul.paging li {
+	float:left;
+	cursor: pointer;
+}
+
+.dataGrid ul.paging li a {
+	color: #444;
+	font-size: 2.0em;
+	padding-right: 16px;
+}
